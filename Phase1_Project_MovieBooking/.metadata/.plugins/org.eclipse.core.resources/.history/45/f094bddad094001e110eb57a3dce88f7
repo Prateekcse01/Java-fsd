@@ -1,0 +1,59 @@
+package com.booking;
+import java.util.*;
+
+public class Movie {
+	private String name;
+	private String theatername;
+	private int numofticket;
+	private int cost;
+	
+	
+	Movie(){
+		Scanner scn = new Scanner(System.in);
+		System.out.println("Enter the name of the movie:");
+		this.name= scn.nextLine();
+		System.out.println("Enter the theater name:");
+		this.theatername =scn.next();
+		System.out.println("Enter the number of tickets");
+		this.numofticket = scn.nextInt();
+		System.out.println("Enter the cost of tickets");
+		this.cost = scn.nextInt();
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getTheatername() {
+		return theatername;
+	}
+	public void setTheatername(String theatername) {
+		this.theatername = theatername;
+	}
+	public int getNumofticket() {
+		return numofticket;
+	}
+	public void setNumofticket(int numofticket) {
+		this.numofticket = numofticket;
+	}
+	public int getCost() {
+		return cost;
+	}
+	public void setCost(int cost) {
+		this.cost = cost;
+	}
+	
+   void storeAllDetails(String name,String brand,int memory,int camera, double price) {
+	   this.name = name;
+	   this.theatername = theatername;
+	   this.numofticket = numofticket;
+	   this.cost = cost;
+	   
+	   
+   }
+	
+	}
+
+
