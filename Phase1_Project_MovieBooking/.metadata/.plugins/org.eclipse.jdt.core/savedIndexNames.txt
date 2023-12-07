@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+F:\Mphasis_Phase1_Project_MovieBooking\.metadata\.plugins\org.eclipse.jdt.core
-2444965284.index
-1865797976.index
-879310438.index
